@@ -5,6 +5,8 @@ Que bom que você quer ajudar! 💚 O JADÁ é feito para a comunidade, e a comu
 > **Importante:** este repositório é a **vitrine** do projeto. O código-fonte do aplicativo é **privado** e não está aqui.
 > Mesmo assim, quase toda contribuição pode ser feita por **issues** e **discussões**, e documentação e imagens aceitam **pull requests** neste repositório.
 
+🌐 O app está no ar em **[jadabrasil.com.br](https://jadabrasil.com.br/)**: use-o para testar, encontrar bugs e sugerir melhorias.
+
 Ao participar, você concorda em seguir o nosso [Código de Conduta](CODE_OF_CONDUCT.md).
 
 ---

@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 🌐 Acessar o JADÁ
+    url: https://jadabrasil.com.br/
+    about: O app no ar. Teste antes de abrir uma issue.
   - name: 🔒 Reportar falha de segurança (privado)
     url: https://github.com/paulohenz/jada/security/advisories/new
     about: Não abra issue pública para vulnerabilidades. Use o relato privado.

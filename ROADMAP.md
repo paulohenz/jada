@@ -16,7 +16,7 @@ Legenda: ✅ pronto · 🚧 em andamento · 🗓️ planejado · 💭 ideia
 - ✅ Modo demonstração automático quando a API está fora do ar
 
 ## 🚧 Agora: preparação para o lançamento
-- 🚧 Publicação (hospedagem do front, da API e do banco gerenciado) com domínio próprio
+- ✅ Publicação com domínio próprio: no ar em [jadabrasil.com.br](https://jadabrasil.com.br/) (front, API e banco)
 - 🚧 Testes com grupos de eleitores em diferentes cidades
 - 🚧 Ajustes de layout no celular (mapa e listas)
 - 🗓️ Página de status/transparência: quantos relatos, quantos locais ativos

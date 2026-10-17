@@ -24,7 +24,7 @@ Se esse botão não estiver disponível, abra uma issue **sem detalhes técnicos
 ## Escopo
 
 Estão no escopo:
-- o aplicativo JADÁ (front-end e API), inclusive formas de **manipular os relatos de fila em massa**, contornar os limites por aparelho/IP ou o sistema de denúncias;
+- o aplicativo JADÁ (front-end em [jadabrasil.com.br](https://jadabrasil.com.br/) e API em `api.jadabrasil.com.br`), inclusive formas de **manipular os relatos de fila em massa**, contornar os limites por aparelho/IP ou o sistema de denúncias;
 - qualquer exposição de dados de usuários (IDs de aparelho, IPs).
 
 Fora do escopo:

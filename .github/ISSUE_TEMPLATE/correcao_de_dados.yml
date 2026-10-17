@@ -38,6 +38,7 @@ body:
     id: link
     attributes:
       label: Link da página do local no JADÁ (se houver)
+      placeholder: https://jadabrasil.com.br/local/...
   - type: dropdown
     id: tipo
     attributes:

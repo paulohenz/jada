@@ -6,7 +6,9 @@
 
 **Saiba quando ir.** Veja como está a fila no seu local de votação, em tempo real, com informações enviadas pela própria comunidade.
 
-[Ver o vídeo](media/demo.mp4) · [Capturas de tela](#-capturas-de-tela) · [Como contribuir](CONTRIBUTING.md) · [Roadmap](ROADMAP.md) · [Abrir uma issue](../../issues/new/choose)
+### 🌐 Acesse: [jadabrasil.com.br](https://jadabrasil.com.br/)
+
+[Acessar o JADÁ](https://jadabrasil.com.br/) · [Ver o vídeo](media/demo.mp4) · [Capturas de tela](#-capturas-de-tela) · [Como contribuir](CONTRIBUTING.md) · [Roadmap](ROADMAP.md) · [Abrir uma issue](../../issues/new/choose)
 
 </div>
 
@@ -134,7 +136,7 @@ Achou um local com endereço, nome ou seção errada? Abra uma issue de [**Corre
 
 ## 🚦 Status do projeto
 
-**MVP funcional, em fase de testes.** Busca nacional, página do local, relatos com estimativa robusta, mapa por níveis, Minha seção e importação completa do TSE já funcionam localmente. Os próximos passos (publicação, alertas, PWA, acessibilidade) estão no [ROADMAP.md](ROADMAP.md).
+**No ar em [jadabrasil.com.br](https://jadabrasil.com.br/), em fase de testes.** Busca nacional, página do local, relatos com estimativa robusta, mapa por níveis, Minha seção e a base completa do TSE já funcionam em produção. Os próximos passos (alertas, PWA, acessibilidade) estão no [ROADMAP.md](ROADMAP.md).
 
 ## 🤝 Como contribuir
 
@@ -165,4 +167,4 @@ Os dados do TSE seguem a licença da fonte original (CC BY).
 
 ### 🇬🇧 English (short)
 
-**JADÁ ("Já dá pra ir?", or "Is it a good time to go?")** shows, in real time, how long the line is at your Brazilian polling place, based on crowd-sourced reports combined with official open data from the Superior Electoral Court (TSE). This is the public **showcase** repository (screenshots, demo video, roadmap and issue tracker). The application source code is private. Bug reports, feature ideas, polling-place data corrections and UX feedback are welcome through issues. Screenshots use fictional demo data. Docs and media: CC BY 4.0.
+**JADÁ ("Já dá pra ir?", or "Is it a good time to go?")** shows, in real time, how long the line is at your Brazilian polling place, based on crowd-sourced reports combined with official open data from the Superior Electoral Court (TSE). Live at **[jadabrasil.com.br](https://jadabrasil.com.br/)**. This is the public **showcase** repository (screenshots, demo video, roadmap and issue tracker). The application source code is private. Bug reports, feature ideas, polling-place data corrections and UX feedback are welcome through issues. Screenshots use fictional demo data. Docs and media: CC BY 4.0.
