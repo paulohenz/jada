@@ -1,0 +1,73 @@
+name: 📍 Correção de dados de local de votação
+description: Endereço, nome, coordenada no mapa ou seção errada em um local de votação.
+title: "[Dados] <UF> - <Município> - <Nome do local>"
+labels: ["dados"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Os dados oficiais vêm do **TSE (dados abertos)**. Correções ajudam todo mundo a chegar ao lugar certo.
+        ⚠️ **Não envie dados pessoais** (título de eleitor, CPF, fotos de documentos).
+  - type: input
+    id: uf
+    attributes:
+      label: UF
+      placeholder: RS
+    validations:
+      required: true
+  - type: input
+    id: municipio
+    attributes:
+      label: Município
+      placeholder: Porto Alegre
+    validations:
+      required: true
+  - type: input
+    id: local
+    attributes:
+      label: Nome do local de votação
+      placeholder: Colégio Estadual Júlio de Castilhos
+    validations:
+      required: true
+  - type: input
+    id: zona
+    attributes:
+      label: Zona eleitoral e número do local (se souber)
+      placeholder: "Zona 1, local 1015"
+  - type: input
+    id: link
+    attributes:
+      label: Link da página do local no JADÁ (se houver)
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: O que está errado?
+      multiple: true
+      options:
+        - Endereço
+        - Posição no mapa (coordenada)
+        - Nome do local
+        - Seções (faltando ou a mais)
+        - Município / zona
+        - Local desativado / mudou de lugar
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: correcao
+    attributes:
+      label: Como está hoje e qual é a informação correta?
+    validations:
+      required: true
+  - type: textarea
+    id: fonte
+    attributes:
+      label: Fonte da informação
+      description: Site oficial, foto da fachada, link de mapa etc.
+  - type: checkboxes
+    id: confirmacao
+    attributes:
+      label: Confirmação
+      options:
+        - label: Não incluí dados pessoais meus ou de outras pessoas.
+          required: true

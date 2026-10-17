@@ -1,0 +1,47 @@
+name: 💡 Sugestão de funcionalidade
+description: Proponha uma ideia ou melhoria para o JADÁ.
+title: "[Sugestão] "
+labels: ["melhoria"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        O JADÁ é **apartidário**: sugestões com candidatos, partidos, pesquisas ou intenção de voto não serão aceitas.
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual problema você quer resolver?
+      placeholder: Quando chego no local, não sei qual fila é a da minha seção...
+    validations:
+      required: true
+  - type: textarea
+    id: solucao
+    attributes:
+      label: Como você imagina a solução?
+    validations:
+      required: true
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas que você considerou
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      multiple: true
+      options:
+        - Busca
+        - Página do local
+        - Informar fila
+        - Mapa
+        - Minha seção
+        - Alertas / notificações
+        - Acessibilidade
+        - Design / textos
+        - Dados
+        - Outro
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto adicional
+      description: Prints, rascunhos, links de referência.

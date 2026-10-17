@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Reportar falha de segurança (privado)
+    url: https://github.com/paulohenz/jada/security/advisories/new
+    about: Não abra issue pública para vulnerabilidades. Use o relato privado.
+  - name: 👩‍💻 Pedir acesso para colaborar com código
+    url: https://github.com/paulohenz/jada/blob/main/CONTRIBUTING.md
+    about: Veja como pedir acesso ao código privado do JADÁ.
+  - name: 🗂️ Dados oficiais do TSE
+    url: https://dadosabertos.tse.jus.br/dataset/eleitorado-2026
+    about: Problemas na base oficial também podem ser reportados à Justiça Eleitoral.
